@@ -15,7 +15,6 @@ body:
       - label: Windows
       - label: OSX
       - label: Linux
-        required: true
   - type: textarea
     attributes:
       label: Reproduction steps (if known)
