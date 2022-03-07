@@ -25,3 +25,7 @@ body:
       description: From the client-crashlog.txt or similar, show the **entire** stack trace.
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: If you have any additional information or remarks, you may put them here.
