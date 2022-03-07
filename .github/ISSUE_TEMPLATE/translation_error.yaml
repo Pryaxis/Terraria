@@ -1,0 +1,34 @@
+name: Translation Error
+description: A mistake in the game's translation to another language
+labels: [translation error]
+body:
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      options:
+      - label: I have searched this repository for an existing issue matching this description, and none exists. I understand this issue will be closed as a duplicate if this is not the case.
+        required: true
+  - type: input
+    attributes:
+      label: Language of the translation error
+      description: Which language does this translation error occur in?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: The English text
+      description: If able, please provide the original English text that is shown in this area.
+  - type: input
+    attributes:
+      label: The incorrectly translated text
+      description: This is the text that is incorrectly translated, exactly as seen in-game
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: The correctly translated text
+      description: If able, you may provide a corrected translation of the original english text.
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: If you have any additional information or remarks, you may put them here.
