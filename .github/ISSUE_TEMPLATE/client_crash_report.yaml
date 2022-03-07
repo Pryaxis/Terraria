@@ -6,15 +6,15 @@ body:
     attributes:
       label: Is there an existing issue for this?
       options:
-        - label: I have searched this repository for an existing issue matching this description, and none exists. I understand this issue will be closed as a duplicate if this is not the case.
+      - label: I have searched this repository for an existing issue matching this description, and none exists. I understand this issue will be closed as a duplicate if this is not the case.
         required: true
   - type: checkboxes
     attributes:
       label: Tested platforms
       options:
-        - label: Windows
-        - label: OSX
-        - label: Linux
+      - label: Windows
+      - label: OSX
+      - label: Linux
         required: true
   - type: textarea
     attributes:
