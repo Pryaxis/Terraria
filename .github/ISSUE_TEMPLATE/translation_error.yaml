@@ -14,20 +14,20 @@ body:
       description: Which language does this translation error occur in?
     validations:
       required: true
-  - type: input
+  - type: textarea
     attributes:
-      label: The English text
-      description: If able, please provide the original English text that is shown in this area.
-  - type: input
+      label: The English text(s)
+      description: If able, please provide the original English text(s) that are shown in this area.
+  - type: textarea
     attributes:
-      label: The incorrectly translated text
-      description: This is the text that is incorrectly translated, exactly as seen in-game
+      label: The incorrectly translated text(s)
+      description: These are the text(s) that are incorrectly translated, exactly as seen in-game
     validations:
       required: true
-  - type: input
+  - type: textarea
     attributes:
-      label: The correctly translated text
-      description: If able, you may provide a corrected translation of the original english text.
+      label: The correctly translated text(s)
+      description: If able, you may provide corrected translations of the original English text.
   - type: textarea
     attributes:
       label: Additional information
